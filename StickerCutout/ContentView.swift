@@ -34,7 +34,7 @@ struct ContentView: View {
             .sheet(isPresented: $showShare) {
                 if let url = shareURL { ShareSheet(items: [url]) }
             }
-            .sheet(item: $previewItem) { sticker in
+            .sheet(item: previewItem) { sticker in
                 previewSheet(sticker)
             }
         }
