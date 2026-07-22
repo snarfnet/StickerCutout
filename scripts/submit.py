@@ -2,7 +2,7 @@ import jwt, time, requests, sys
 
 KEY_ID       = 'WDXGY9WX55'
 ISSUER       = '2be0734f-943a-4d61-9dc9-5d9045c46fec'
-APP_ID       = 'TODO_APP_ID'   # ASCでアプリ作成後に差し替え
+APP_ID       = '6793449050'
 BUILD_NUMBER = sys.argv[1]
 
 if APP_ID.startswith('TODO'):
