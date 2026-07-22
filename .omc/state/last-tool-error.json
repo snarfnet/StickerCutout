@@ -1,7 +1,0 @@
-{
-  "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"cat > /tmp/asc_prep.py <<'PYEOF'\\nimport jwt, time, requests, sys, json\\nKEY_ID='WDXGY9WX55'; ISSUER='2be0734f-943a-4d61-9dc9-5d9045c46fec'\\nBUNDLE='com.tokyonasu.stickercutout'; NAME='スタン...",
-  "error": "Exit code 1\nTraceback (most recent call last):\r\n  File \"C:\\Users\\Windows\\AppData\\Local\\Temp\\asc_prep.py\", line 4, in <module>\r\n    p8=open('/c/Users/Windows/Downloads/AuthKey_WDXGY9WX55.p8').read()\r\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nFileNotFoundError: [Errno 2] No such file or directory: '/c/Users/Windows/Downloads/AuthKey_WDXGY9WX55.p8'",
-  "timestamp": "2026-07-22T08:26:48.791Z",
-  "retry_count": 2
-}

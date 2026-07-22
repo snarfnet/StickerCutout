@@ -5,3 +5,4 @@ DerivedData/
 *.ipa
 *.xcarchive
 StickerCutout/Info.plist
+.omc/
